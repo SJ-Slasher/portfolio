@@ -41,11 +41,8 @@ import stxavierLogo from "./assets/education_logo/St.Xavier_logo.png";
 import ppehssLogo from "./assets/education_logo/PPEHSS_logo.png";
 
 // Project Section Logo's
-import img1 from "./assets/project_logo/1.png";
-import img2 from "./assets/project_logo/2.png";
-import img3 from "./assets/project_logo/3.png";
-import img4 from "./assets/project_logo/4.png";
 import calculator from "./assets/project_logo/Calculator.png";
+import quiz from "./assets/project_logo/Quiz.png";
 
 //Achievements Section Logo's
 
@@ -211,16 +208,16 @@ export const projects = [
     // github: "https://github.com/yourgithubusername/iguide",
     // webapp: "https://iguide.yourdomain.com",
   },
-  // {
-  //   id: 1,
-  //   title: "Khana Khajana - Recipe Finder App",
-  //   description:
-  //     "A React Native mobile app that helps users search and discover recipes based on ingredients, cuisine, and dietary preferences. Uses PostgreSQL as backend database and features offline caching and user favorites.",
-  //   image: img2,
-  //   tags: ["React Native", "PostgreSQL", "REST API", "Expo"],
+  {
+    id: 1,
+    title: "Quiz-KBC",
+    description:
+      "A simple and fun quiz game built with HTML, CSS, and JavaScript. Test your knowledge with multiple-choice questions.",
+    image: quiz,
+    tags: ["HTML", "css", "Java Script"],
   //   github: "https://github.com/yourgithubusername/khana-khajana",
   //   webapp: "",
-  // },
+  },
   // {
   //   id: 2,
   //   title: "Hotel Management System",
