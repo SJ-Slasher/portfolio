@@ -43,6 +43,7 @@ import ppehssLogo from "./assets/education_logo/PPEHSS_logo.png";
 // Project Section Logo's
 import calculator from "./assets/project_logo/Calculator.png";
 import quiz from "./assets/project_logo/Quiz.png";
+import todo from "./assets/project_logo/Todo.png";
 
 //Achievements Section Logo's
 
@@ -218,16 +219,16 @@ export const projects = [
   //   github: "https://github.com/yourgithubusername/khana-khajana",
   //   webapp: "",
   },
-  // {
-  //   id: 2,
-  //   title: "Hotel Management System",
-  //   description:
-  //     "A comprehensive hotel management system built with Java. Manages room bookings, billing, and staff workflows with a user-friendly interface.",
-  //   image: img3,
-  //   tags: ["Java", "MySQL", "Swing", "OOP"],
+  {
+    id: 2,
+    title: "To-Do Drag-Drop",
+    description:
+      "A simple and interactive To-Do List app with drag-and-drop support to easily organize tasks.",
+    image: todo,
+    tags: ["HTML", "css", "Java Script"],
   //   github: "https://github.com/yourgithubusername/hotel-management-system",
   //   webapp: "",
-  // },
+  },
   // {
   //   id: 3,
   //   title: "UD Down Controller (Microcontroller Project)",
