@@ -44,6 +44,7 @@ import ppehssLogo from "./assets/education_logo/PPEHSS_logo.png";
 import calculator from "./assets/project_logo/Calculator.png";
 import quiz from "./assets/project_logo/Quiz.png";
 import todo from "./assets/project_logo/Todo.png";
+import currencyconverter from "./assets/project_logo/Currencyconverter.png";
 
 //Achievements Section Logo's
 
@@ -229,16 +230,16 @@ export const projects = [
   //   github: "https://github.com/yourgithubusername/hotel-management-system",
   //   webapp: "",
   },
-  // {
-  //   id: 3,
-  //   title: "UD Down Controller (Microcontroller Project)",
-  //   description:
-  //     "An embedded system project using microcontrollers to control Up-Down counting mechanisms for industrial applications. Implemented using C and interfaced with LCD for real-time display.",
-  //   image: img4,
-  //   tags: ["C", "Microcontroller", "Embedded Systems"],
-  //   github: "https://github.com/yourgithubusername/ud-down-controller",
-  //   webapp: "",
-  // },
+  {
+    id: 3,
+    title: "Currency Converter API",
+    description:
+      "A currency converter app that fetches real-time exchange rates using an API, allowing quick and accurate conversions between multiple currencies.",
+    image: currencyconverter,
+    tags: ["HTML", "css", "Java Script","API"],
+    // github: "https://github.com/yourgithubusername/ud-down-controller",
+    // webapp: "",
+  },
 ];
 
 export const achievements = [
