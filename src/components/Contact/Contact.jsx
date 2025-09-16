@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -19,12 +19,27 @@ const Contact = () => {
     e.preventDefault();
     setIsSending(true);
 
+    const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
+    if (!SERVICE_ID || !TEMPLATE_ID || !PUBLIC_KEY) {
+      setIsSending(false);
+      console.error("Missing EmailJS configuration. Check .env.local variables.");
+      toast.error("Email service not configured. Please try again later.", {
+        position: "top-right",
+        autoClose: 3000,
+        theme: "dark",
+      });
+      return;
+    }
+
     emailjs
       .sendForm(
-        "service_crug4s9",
-        "template_yw45mpc",
+        SERVICE_ID,
+        TEMPLATE_ID,
         form.current,
-        "pTqN-K5il0zixPvq4"
+        { publicKey: PUBLIC_KEY }
       )
       .then(
         () => {
