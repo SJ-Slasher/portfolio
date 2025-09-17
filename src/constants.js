@@ -138,7 +138,7 @@ export const experiences = [
     img: greenwayLogo,
     role: "Intern",
     date: "Sept 2024 - Oct 2024",
-    desc: "FInterned at Greenway Nepal, conducting surveys on eco-friendly products and supporting awareness campaigns. Contributed to product documentation and promotional efforts through computer-based design work, helping promote sustainable practices and green innovation.",
+    desc: "Interned at Greenway Nepal, conducting surveys on eco-friendly products and supporting awareness campaigns. Contributed to product documentation and promotional efforts through computer-based design work, helping promote sustainable practices and green innovation.",
     skills: [
       "Entrepreneurship",
       "Branding",
@@ -184,7 +184,6 @@ export const education = [
     location: "Maitighar, Kathmandu",
     date: "Graduated (2022 - 2024)",
     degree: "High School with Computer Science Major",
-    // grade: "Completed",
     desc: "Completed High School from St. Xavier’s College, Maitighar with a major in Computer Science, gaining a strong foundation in programming, mathematics, and logical problem-solving.",
   },
   {
@@ -194,7 +193,6 @@ export const education = [
     location: "Imadol, Lalitpur",
     date: "Graduated 2076 BS (2021 AD)",
     degree: "Secondary Education (SEE)",
-    // grade: "3.5 GPA",
     desc: "Completed Secondary Schooling from Pawan Prakriti Higher Secondary School, building a solid academic foundation and interest in technology.",
   },
 ];
