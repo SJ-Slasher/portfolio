@@ -45,6 +45,7 @@ import calculator from "./assets/project_logo/Calculator.png";
 import quiz from "./assets/project_logo/Quiz.png";
 import todo from "./assets/project_logo/Todo.png";
 import currencyconverter from "./assets/project_logo/Currencyconverter.png";
+import tiktaktoe from "./assets/project_logo/Tiktaktoe.png";
 
 //Achievements Section Logo's
 
@@ -235,6 +236,16 @@ export const projects = [
       "A currency converter app that fetches real-time exchange rates using an API, allowing quick and accurate conversions between multiple currencies.",
     image: currencyconverter,
     tags: ["HTML", "css", "Java Script","API"],
+    // github: "https://github.com/yourgithubusername/ud-down-controller",
+    // webapp: "",
+  },
+  {
+    id: 4,
+    title: "Tik Tak Toe Game",
+    description:
+      "A simple Tic-Tac-Toe game built with HTML, CSS, and JavaScript. Play locally with win/draw detection and board reset. Lightweight and responsive.",
+    image: tiktaktoe,
+    tags: ["HTML", "css", "Java Script"],
     // github: "https://github.com/yourgithubusername/ud-down-controller",
     // webapp: "",
   },
