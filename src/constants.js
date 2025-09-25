@@ -46,6 +46,8 @@ import quiz from "./assets/project_logo/Quiz.png";
 import todo from "./assets/project_logo/Todo.png";
 import currencyconverter from "./assets/project_logo/Currencyconverter.png";
 import tiktaktoe from "./assets/project_logo/Tiktaktoe.png";
+import rockpaperscissor from "./assets/project_logo/Rockpaperscissors.png";
+import diceroller from "./assets/project_logo/Diceroller.png";
 
 //Achievements Section Logo's
 
@@ -245,6 +247,26 @@ export const projects = [
     description:
       "A simple Tic-Tac-Toe game built with HTML, CSS, and JavaScript. Play locally with win/draw detection and board reset. Lightweight and responsive.",
     image: tiktaktoe,
+    tags: ["HTML", "css", "Java Script"],
+    // github: "https://github.com/yourgithubusername/ud-down-controller",
+    // webapp: "",
+  },
+    {
+    id: 5,
+    title: "Rock Paper Scissor Game",
+    description:
+      "A simple and fun Rock Paper Scissors game built using HTML, CSS, and JavaScript. Players can choose between rock, paper, or scissors and compete against the computer.",
+    image: rockpaperscissor,
+    tags: ["HTML", "css", "Java Script"],
+    // github: "https://github.com/yourgithubusername/ud-down-controller",
+    // webapp: "",
+  },
+    {
+    id: 6,
+    title: "Random Dice Roller",
+    description:
+      "A simple dice rolling app built with HTML, CSS, and JavaScript. It generates random dice outcomes with each roll, making it fun and interactive for quick games or practice.",
+    image: diceroller,
     tags: ["HTML", "css", "Java Script"],
     // github: "https://github.com/yourgithubusername/ud-down-controller",
     // webapp: "",
