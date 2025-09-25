@@ -208,8 +208,8 @@ export const projects = [
       "A simple calculator built with HTML, CSS, and JavaScript. It performs basic arithmetic operations with a clean and easy-to-use interface.",
     image: calculator,
     tags: ["HTML", "css", "Java Script"],
-    // github: "https://github.com/yourgithubusername/iguide",
-    // webapp: "https://iguide.yourdomain.com",
+    github: "https://github.com/SJ-Slasher/Calculator",
+    webapp: "https://calculator.suprimjoshi.com.np/",
   },
   {
     id: 1,
@@ -218,8 +218,8 @@ export const projects = [
       "A simple and fun quiz game built with HTML, CSS, and JavaScript. Test your knowledge with multiple-choice questions.",
     image: quiz,
     tags: ["HTML", "css", "Java Script"],
-  //   github: "https://github.com/yourgithubusername/khana-khajana",
-  //   webapp: "",
+    github: "https://github.com/SJ-Slasher/Quiz-Game",
+    webapp: "https://quizkbc.suprimjoshi.com.np/",
   },
   {
     id: 2,
@@ -228,8 +228,8 @@ export const projects = [
       "A simple and interactive To-Do List app with drag-and-drop support to easily organize tasks.",
     image: todo,
     tags: ["HTML", "css", "Java Script"],
-  //   github: "https://github.com/yourgithubusername/hotel-management-system",
-  //   webapp: "",
+    github: "https://github.com/SJ-Slasher/To-Do-drag",
+    webapp: "https://todo.suprimjoshi.com.np/",
   },
   {
     id: 3,
@@ -238,8 +238,8 @@ export const projects = [
       "A currency converter app that fetches real-time exchange rates using an API, allowing quick and accurate conversions between multiple currencies.",
     image: currencyconverter,
     tags: ["HTML", "css", "Java Script","API"],
-    // github: "https://github.com/yourgithubusername/ud-down-controller",
-    // webapp: "",
+    github: "https://github.com/SJ-Slasher/Currency-Converter",
+    webapp: "https://currencyconverter.suprimjoshi.com.np/",
   },
   {
     id: 4,
@@ -248,8 +248,8 @@ export const projects = [
       "A simple Tic-Tac-Toe game built with HTML, CSS, and JavaScript. Play locally with win/draw detection and board reset. Lightweight and responsive.",
     image: tiktaktoe,
     tags: ["HTML", "css", "Java Script"],
-    // github: "https://github.com/yourgithubusername/ud-down-controller",
-    // webapp: "",
+    github: "https://github.com/SJ-Slasher/Tik-Tak-Toe",
+    webapp: "https://tiktaktoe.suprimjoshi.com.np/",
   },
     {
     id: 5,
@@ -258,8 +258,8 @@ export const projects = [
       "A simple and fun Rock Paper Scissors game built using HTML, CSS, and JavaScript. Players can choose between rock, paper, or scissors and compete against the computer.",
     image: rockpaperscissor,
     tags: ["HTML", "css", "Java Script"],
-    // github: "https://github.com/yourgithubusername/ud-down-controller",
-    // webapp: "",
+    github: "https://github.com/SJ-Slasher/Rock-Paper-Scissor",
+    webapp: "https://rockpaperscissor.suprimjoshi.com.np/",
   },
     {
     id: 6,
@@ -268,8 +268,8 @@ export const projects = [
       "A simple dice rolling app built with HTML, CSS, and JavaScript. It generates random dice outcomes with each roll, making it fun and interactive for quick games or practice.",
     image: diceroller,
     tags: ["HTML", "css", "Java Script"],
-    // github: "https://github.com/yourgithubusername/ud-down-controller",
-    // webapp: "",
+    github: "https://github.com/SJ-Slasher/Dice-Roller",
+    webapp: "https://diceroller.suprimjoshi.com.np",
   },
 ];
 

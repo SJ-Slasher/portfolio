@@ -1,6 +1,3 @@
-
-
-
 import React, { useState } from "react";
 import { projects } from "../../constants";
 
@@ -62,6 +59,30 @@ const Work = () => {
                   </span>
                 ))}
               </div>
+
+              {/* <-- Minimal added block: View Code / Live on card (prevents modal open) */}
+              <div className="flex gap-4 mt-4">
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 px-4 py-2 rounded-xl text-sm font-semibold text-center"
+                >
+                  Code
+                </a>
+
+                <a
+                  href={project.webapp}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white px-4 py-2 rounded-xl text-sm font-semibold text-center"
+                >
+                  View Live
+                </a>
+              </div>
+              {/* end added block */}
             </div>
           </div>
         ))}
@@ -110,25 +131,7 @@ const Work = () => {
                   ))}
                 </div>
 
-                {/* View Code / Live Buttons (Optional) */}
-                {/* <div className="flex gap-4">
-                  <a
-                    href={selectedProject.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 px-4 py-2 rounded-xl text-sm font-semibold text-center"
-                  >
-                    View Code
-                  </a>
-                  <a
-                    href={selectedProject.webapp}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white px-4 py-2 rounded-xl text-sm font-semibold text-center"
-                  >
-                    View Live
-                  </a>
-                </div> */}
+                {/* Buttons removed from modal to avoid duplication */}
               </div>
             </div>
           </div>
