@@ -2,8 +2,9 @@ import React from "react";
 import img1 from "../../assets/artworks/Gadimandu.png";
 import img2 from "../../assets/artworks/Tathasthu.png";
 import img3 from "../../assets/artworks/Harmonicsnepal.png";
+import img4 from "../../assets/artworks/Bugmara.png";
 
-const artworks = [img1, img2, img3]; // Add more as needed
+const artworks = [img1, img2, img3, img4]; // Add more as needed
 const duplicated = [...artworks, ...artworks]; // Duplicate for infinite loop
 
 const Artworks = () => {

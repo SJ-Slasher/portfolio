@@ -48,6 +48,7 @@ import currencyconverter from "./assets/project_logo/Currencyconverter.png";
 import tiktaktoe from "./assets/project_logo/Tiktaktoe.png";
 import rockpaperscissor from "./assets/project_logo/Rockpaperscissors.png";
 import diceroller from "./assets/project_logo/Diceroller.png";
+import snakegame from "./assets/project_logo/Snakegame.png";
 
 //Achievements Section Logo's
 
@@ -270,6 +271,16 @@ export const projects = [
     tags: ["HTML", "css", "Java Script"],
     github: "https://github.com/SJ-Slasher/Dice-Roller",
     webapp: "https://diceroller.suprimjoshi.com.np",
+  },
+   {
+    id: 7,
+    title: "Snake Game",
+    description:
+      "A classic Snake Game built with HTML, CSS, and JavaScript. Control the snake to eat food, grow longer, and avoid crashing into walls or yourself. Clean UI with smooth gameplay for a nostalgic experience.",
+    image: snakegame,
+    tags: ["HTML", "css", "Java Script"],
+    github: "https://github.com/SJ-Slasher/Snake-Game",
+    webapp: "https://snakegame.suprimjoshi.com.np/",
   },
 ];
 
