@@ -7,7 +7,7 @@ import angularLogo from "./assets/tech_logo/angular.png";
 import reduxLogo from "./assets/tech_logo/redux.png";
 import nextjsLogo from "./assets/tech_logo/nextjs.png";
 import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
-import reactnativeLogo from "./assets/tech_logo/reactnative.png"; // ✅ Fixed name
+import reactnativeLogo from "./assets/tech_logo/reactnative.png";
 import materialuiLogo from "./assets/tech_logo/materialui.png";
 import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
 import nodejsLogo from "./assets/tech_logo/nodejs.png";
@@ -51,7 +51,6 @@ import diceroller from "./assets/project_logo/Diceroller.png";
 import snakegame from "./assets/project_logo/Snakegame.png";
 
 //Achievements Section Logo's
-
 import ach1 from "./assets/achievements_logo/Hultprize.png";
 import ach2 from "./assets/achievements_logo/Kora2025.png";
 import ach3 from "./assets/achievements_logo/Halfmarathon2023.png";
@@ -63,6 +62,7 @@ import graduation from "./assets/gallery_logo/Graduation.png";
 import bachelor from "./assets/gallery_logo/Bachelorwelcome.png";
 import tathasthuband from "./assets/gallery_logo/Tathasthuband.png";
 import phoenixband from "./assets/gallery_logo/Phoenixband.png";
+import pneumas from "./assets/gallery_logo/Pneumas.png";
 
 export const SkillsInfo = [
   {
@@ -82,7 +82,7 @@ export const SkillsInfo = [
     title: "Backend",
     skills: [
       { name: "Node JS", logo: nodejsLogo },
-      // { name: "Express JS", logo: expressjsLogo },
+      { name: "Express JS", logo: expressjsLogo },
       // { name: "MySQL", logo: mysqlLogo },
       // { name: "MongoDB", logo: mongodbLogo },
       // { name: "Firebase", logo: firebaseLogo },
@@ -351,5 +351,11 @@ export const gallery = [
     title: "Bachelor's Welcome ",
     image: bachelor,
   },
+      {
+    id: 5,
+    title: "Pneumas Band-Basist",
+    image: pneumas,
+  },
+
 
 ];
