@@ -54,6 +54,7 @@ import snakegame from "./assets/project_logo/Snakegame.png";
 import ach1 from "./assets/achievements_logo/Hultprize.png";
 import ach2 from "./assets/achievements_logo/Kora2025.png";
 import ach3 from "./assets/achievements_logo/Halfmarathon2023.png";
+import ach4 from "./assets/achievements_logo/TED_OC_Certificate.png";
 
 //Gallery Section Logo's
 import cycleguitar from "./assets/gallery_logo/Cycleguitar.png";
@@ -306,13 +307,13 @@ export const achievements = [
     description:
       "Successfully completed a 21 km Half Marathon in Kathmandu, organized by Kantipur. This experience not only tested my endurance and discipline but also strengthened my commitment to fitness, perseverance, and personal growth.",
   },
-  // {
-  //   id: 3,
-  //   title: "IT Club President",
-  //   image: ach3,
-  //   description:
-  //     "Serving as the President of the IT Club at Aryan School of Engineering and Management, leading training, events, and student development.",
-  // },
+   {
+    id: 5,
+    title: "TEDxNCIT Organizing Committe",
+    image: ach4,
+    description:
+      "Serving as the President of the IT Club at Aryan School of Engineering and Management, leading training, events, and student development.",
+  },
 ];
 
 
