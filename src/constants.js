@@ -312,7 +312,7 @@ export const achievements = [
     title: "TEDxNCIT Organizing Committe",
     image: ach4,
     description:
-      "Serving as the President of the IT Club at Aryan School of Engineering and Management, leading training, events, and student development.",
+      "Honored to receive a certificate as part of the Organizing Committee for TEDxNCIT 2026 — proud to contribute to an event that celebrates ideas worth spreading.",
   },
 ];
 
