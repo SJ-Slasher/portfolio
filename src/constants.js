@@ -64,6 +64,7 @@ import bachelor from "./assets/gallery_logo/Bachelorwelcome.png";
 import tathasthuband from "./assets/gallery_logo/Tathasthuband.png";
 import phoenixband from "./assets/gallery_logo/Phoenixband.png";
 import pneumas from "./assets/gallery_logo/Pneumas.png";
+import tedxncitoc from "./assets/gallery_logo/TEDxNCIT_OC.png";
 
 export const SkillsInfo = [
   {
@@ -357,6 +358,9 @@ export const gallery = [
     title: "Pneumas Band-Basist",
     image: pneumas,
   },
-
-
+  {
+    id: 6,
+    title:"TEDxNCIT 2026 Organizing Committee",
+    image: tedxncitoc,
+  },
 ];
