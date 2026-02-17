@@ -55,6 +55,7 @@ import ach1 from "./assets/achievements_logo/Hultprize.png";
 import ach2 from "./assets/achievements_logo/Kora2025.png";
 import ach3 from "./assets/achievements_logo/Halfmarathon2023.png";
 import ach4 from "./assets/achievements_logo/TED_OC_Certificate.png";
+import ach5 from "./assets/achievements_logo/Protobytes.png";
 
 //Gallery Section Logo's
 import cycleguitar from "./assets/gallery_logo/Cycleguitar.png";
@@ -314,6 +315,13 @@ export const achievements = [
     image: ach4,
     description:
       "Honored to receive a certificate as part of the Organizing Committee for TEDxNCIT 2026 — proud to contribute to an event that celebrates ideas worth spreading.",
+  },
+     {
+    id: 6,
+    title: "Protobytes Hackathon Team-BugMara",
+    image: ach5,
+    description:
+      "Participated in Protobytes Hackathon 2.0 (48-hour) as Team BugMara at Advanced College of Management, where we developed Urja Station — a real-time EV charging, pre-booking, and navigation system.",
   },
 ];
 
