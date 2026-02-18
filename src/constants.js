@@ -49,6 +49,7 @@ import tiktaktoe from "./assets/project_logo/Tiktaktoe.png";
 import rockpaperscissor from "./assets/project_logo/Rockpaperscissors.png";
 import diceroller from "./assets/project_logo/Diceroller.png";
 import snakegame from "./assets/project_logo/Snakegame.png";
+import urjastation from "./assets/project_logo/Urjastation.png";
 
 //Achievements Section Logo's
 import ach1 from "./assets/achievements_logo/Hultprize.png";
@@ -205,8 +206,18 @@ export const education = [
 ];
 
 export const projects = [
-  {
+    {
     id: 0,
+    title: "Urja Station - EV Charging App",
+    description:
+      "A web application designed to locate and manage electric vehicle charging stations. It provides real-time information on charging station availability, user reviews, and navigation assistance.",
+    image: urjastation,
+    tags: ["React Native", "JavaScript","API"],
+    github: "https://github.com/SJ-Slasher/protobytes-2.0-team-BugMara",
+    webapp: "https://urjastation.suprimjoshi.com.np/",
+  },
+  {
+    id: 1,
     title: "Simple Calculator Web",
     description:
       "A simple calculator built with HTML, CSS, and JavaScript. It performs basic arithmetic operations with a clean and easy-to-use interface.",
@@ -216,7 +227,7 @@ export const projects = [
     webapp: "https://calculator.suprimjoshi.com.np/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Quiz-KBC",
     description:
       "A simple and fun quiz game built with HTML, CSS, and JavaScript. Test your knowledge with multiple-choice questions.",
@@ -226,7 +237,7 @@ export const projects = [
     webapp: "https://quizkbc.suprimjoshi.com.np/",
   },
   {
-    id: 2,
+    id: 3,
     title: "To-Do Drag-Drop",
     description:
       "A simple and interactive To-Do List app with drag-and-drop support to easily organize tasks.",
@@ -236,7 +247,7 @@ export const projects = [
     webapp: "https://todo.suprimjoshi.com.np/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Currency Converter API",
     description:
       "A currency converter app that fetches real-time exchange rates using an API, allowing quick and accurate conversions between multiple currencies.",
@@ -246,7 +257,7 @@ export const projects = [
     webapp: "https://currencyconverter.suprimjoshi.com.np/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Tik Tak Toe Game",
     description:
       "A simple Tic-Tac-Toe game built with HTML, CSS, and JavaScript. Play locally with win/draw detection and board reset. Lightweight and responsive.",
@@ -256,7 +267,7 @@ export const projects = [
     webapp: "https://tiktaktoe.suprimjoshi.com.np/",
   },
     {
-    id: 5,
+    id: 6,
     title: "Rock Paper Scissor Game",
     description:
       "A simple and fun Rock Paper Scissors game built using HTML, CSS, and JavaScript. Players can choose between rock, paper, or scissors and compete against the computer.",
@@ -266,7 +277,7 @@ export const projects = [
     webapp: "https://rockpaperscissor.suprimjoshi.com.np/",
   },
     {
-    id: 6,
+    id: 7,
     title: "Random Dice Roller",
     description:
       "A simple dice rolling app built with HTML, CSS, and JavaScript. It generates random dice outcomes with each roll, making it fun and interactive for quick games or practice.",
@@ -276,7 +287,7 @@ export const projects = [
     webapp: "https://diceroller.suprimjoshi.com.np",
   },
    {
-    id: 7,
+    id: 8,
     title: "Snake Game",
     description:
       "A classic Snake Game built with HTML, CSS, and JavaScript. Control the snake to eat food, grow longer, and avoid crashing into walls or yourself. Clean UI with smooth gameplay for a nostalgic experience.",
