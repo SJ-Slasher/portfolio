@@ -306,20 +306,20 @@ export const achievements = [
     description:
       "Secured 2nd Runner-up position at the Hult Prize competition conducted by NCIT as part of Team Agriloop, presenting an innovative solution aligned with sustainable development goals.",
   },
-  {
-    id: 2,
-    title: "Kora-2025 100Km Finisher ",
-    image: ach2,
-    description:
-      "Completed the Kora-2025 Cycling Challenge in Kathmandu, riding 100 km for a social cause to promote sustainability, community spirit, and cycling culture.",
-  },
-  {
-    id: 4,
-    title: " Kantipur Half-Marathon-2023 Finisher",
-    image: ach3,
-    description:
-      "Successfully completed a 21 km Half Marathon in Kathmandu, organized by Kantipur. This experience not only tested my endurance and discipline but also strengthened my commitment to fitness, perseverance, and personal growth.",
-  },
+  // {
+  //   id: 2,
+  //   title: "Kora-2025 100Km Finisher ",
+  //   image: ach2,
+  //   description:
+  //     "Completed the Kora-2025 Cycling Challenge in Kathmandu, riding 100 km for a social cause to promote sustainability, community spirit, and cycling culture.",
+  // },
+  // {
+  //   id: 4,
+  //   title: " Kantipur Half-Marathon-2023 Finisher",
+  //   image: ach3,
+  //   description:
+  //     "Successfully completed a 21 km Half Marathon in Kathmandu, organized by Kantipur. This experience not only tested my endurance and discipline but also strengthened my commitment to fitness, perseverance, and personal growth.",
+  // },
    {
     id: 5,
     title: "TEDxNCIT Organizing Committe",
