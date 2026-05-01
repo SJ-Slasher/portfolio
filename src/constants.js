@@ -57,6 +57,7 @@ import ach2 from "./assets/achievements_logo/Kora2025.png";
 import ach3 from "./assets/achievements_logo/Halfmarathon2023.png";
 import ach4 from "./assets/achievements_logo/TED_OC_Certificate.png";
 import ach5 from "./assets/achievements_logo/Protobytes.png";
+import ach6 from "./assets/achievements_logo/GenomeBiothone.jpg";
 
 //Gallery Section Logo's
 import cycleguitar from "./assets/gallery_logo/Cycleguitar.png";
@@ -216,86 +217,97 @@ export const projects = [
     github: "https://github.com/SJ-Slasher/protobytes-2.0-team-BugMara",
     webapp: "https://urjastation.suprimjoshi.com.np/",
   },
-  {
-    id: 1,
-    title: "Simple Calculator Web",
-    description:
-      "A simple calculator built with HTML, CSS, and JavaScript. It performs basic arithmetic operations with a clean and easy-to-use interface.",
-    image: calculator,
-    tags: ["HTML", "css", "Java Script"],
-    github: "https://github.com/SJ-Slasher/Calculator",
-    webapp: "https://calculator.suprimjoshi.com.np/",
-  },
-  {
-    id: 2,
-    title: "Quiz-KBC",
-    description:
-      "A simple and fun quiz game built with HTML, CSS, and JavaScript. Test your knowledge with multiple-choice questions.",
-    image: quiz,
-    tags: ["HTML", "css", "Java Script"],
-    github: "https://github.com/SJ-Slasher/Quiz-Game",
-    webapp: "https://quizkbc.suprimjoshi.com.np/",
-  },
-  {
-    id: 3,
-    title: "To-Do Drag-Drop",
-    description:
-      "A simple and interactive To-Do List app with drag-and-drop support to easily organize tasks.",
-    image: todo,
-    tags: ["HTML", "css", "Java Script"],
-    github: "https://github.com/SJ-Slasher/To-Do-drag",
-    webapp: "https://todo.suprimjoshi.com.np/",
-  },
-  {
-    id: 4,
-    title: "Currency Converter API",
-    description:
-      "A currency converter app that fetches real-time exchange rates using an API, allowing quick and accurate conversions between multiple currencies.",
-    image: currencyconverter,
-    tags: ["HTML", "css", "Java Script","API"],
-    github: "https://github.com/SJ-Slasher/Currency-Converter",
-    webapp: "https://currencyconverter.suprimjoshi.com.np/",
-  },
-  {
-    id: 5,
-    title: "Tik Tak Toe Game",
-    description:
-      "A simple Tic-Tac-Toe game built with HTML, CSS, and JavaScript. Play locally with win/draw detection and board reset. Lightweight and responsive.",
-    image: tiktaktoe,
-    tags: ["HTML", "css", "Java Script"],
-    github: "https://github.com/SJ-Slasher/Tik-Tak-Toe",
-    webapp: "https://tiktaktoe.suprimjoshi.com.np/",
-  },
     {
-    id: 6,
-    title: "Rock Paper Scissor Game",
+    id: 9,
+    title: "The Matoo - Smart Soil Testing System",
     description:
-      "A simple and fun Rock Paper Scissors game built using HTML, CSS, and JavaScript. Players can choose between rock, paper, or scissors and compete against the computer.",
-    image: rockpaperscissor,
-    tags: ["HTML", "css", "Java Script"],
-    github: "https://github.com/SJ-Slasher/Rock-Paper-Scissor",
-    webapp: "https://rockpaperscissor.suprimjoshi.com.np/",
+      "A web application designed to locate and manage electric vehicle charging stations. It provides real-time information on charging station availability, user reviews, and navigation assistance.",
+    image: urjastation,
+    tags: ["React Native","Python","Machine Learning","Web Scraping","MATLAB"],
+    github: "https://github.com/SJ-Slasher/protobytes-2.0-team-BugMara",
+    webapp: "https://urjastation.suprimjoshi.com.np/",
   },
-    {
-    id: 7,
-    title: "Random Dice Roller",
-    description:
-      "A simple dice rolling app built with HTML, CSS, and JavaScript. It generates random dice outcomes with each roll, making it fun and interactive for quick games or practice.",
-    image: diceroller,
-    tags: ["HTML", "css", "Java Script"],
-    github: "https://github.com/SJ-Slasher/Dice-Roller",
-    webapp: "https://diceroller.suprimjoshi.com.np",
-  },
-   {
-    id: 8,
-    title: "Snake Game",
-    description:
-      "A classic Snake Game built with HTML, CSS, and JavaScript. Control the snake to eat food, grow longer, and avoid crashing into walls or yourself. Clean UI with smooth gameplay for a nostalgic experience.",
-    image: snakegame,
-    tags: ["HTML", "css", "Java Script"],
-    github: "https://github.com/SJ-Slasher/Snake-Game",
-    webapp: "https://snakegame.suprimjoshi.com.np/",
-  },
+
+  // {
+  //   id: 1,
+  //   title: "Simple Calculator Web",
+  //   description:
+  //     "A simple calculator built with HTML, CSS, and JavaScript. It performs basic arithmetic operations with a clean and easy-to-use interface.",
+  //   image: calculator,
+  //   tags: ["HTML", "css", "Java Script"],
+  //   github: "https://github.com/SJ-Slasher/Calculator",
+  //   webapp: "https://calculator.suprimjoshi.com.np/",
+  // },
+  // {
+  //   id: 2,
+  //   title: "Quiz-KBC",
+  //   description:
+  //     "A simple and fun quiz game built with HTML, CSS, and JavaScript. Test your knowledge with multiple-choice questions.",
+  //   image: quiz,
+  //   tags: ["HTML", "css", "Java Script"],
+  //   github: "https://github.com/SJ-Slasher/Quiz-Game",
+  //   webapp: "https://quizkbc.suprimjoshi.com.np/",
+  // },
+  // {
+  //   id: 3,
+  //   title: "To-Do Drag-Drop",
+  //   description:
+  //     "A simple and interactive To-Do List app with drag-and-drop support to easily organize tasks.",
+  //   image: todo,
+  //   tags: ["HTML", "css", "Java Script"],
+  //   github: "https://github.com/SJ-Slasher/To-Do-drag",
+  //   webapp: "https://todo.suprimjoshi.com.np/",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Currency Converter API",
+  //   description:
+  //     "A currency converter app that fetches real-time exchange rates using an API, allowing quick and accurate conversions between multiple currencies.",
+  //   image: currencyconverter,
+  //   tags: ["HTML", "css", "Java Script","API"],
+  //   github: "https://github.com/SJ-Slasher/Currency-Converter",
+  //   webapp: "https://currencyconverter.suprimjoshi.com.np/",
+  // },
+  // {
+  //   id: 5,
+  //   title: "Tik Tak Toe Game",
+  //   description:
+  //     "A simple Tic-Tac-Toe game built with HTML, CSS, and JavaScript. Play locally with win/draw detection and board reset. Lightweight and responsive.",
+  //   image: tiktaktoe,
+  //   tags: ["HTML", "css", "Java Script"],
+  //   github: "https://github.com/SJ-Slasher/Tik-Tak-Toe",
+  //   webapp: "https://tiktaktoe.suprimjoshi.com.np/",
+  // },
+  //   {
+  //   id: 6,
+  //   title: "Rock Paper Scissor Game",
+  //   description:
+  //     "A simple and fun Rock Paper Scissors game built using HTML, CSS, and JavaScript. Players can choose between rock, paper, or scissors and compete against the computer.",
+  //   image: rockpaperscissor,
+  //   tags: ["HTML", "css", "Java Script"],
+  //   github: "https://github.com/SJ-Slasher/Rock-Paper-Scissor",
+  //   webapp: "https://rockpaperscissor.suprimjoshi.com.np/",
+  // },
+  //   {
+  //   id: 7,
+  //   title: "Random Dice Roller",
+  //   description:
+  //     "A simple dice rolling app built with HTML, CSS, and JavaScript. It generates random dice outcomes with each roll, making it fun and interactive for quick games or practice.",
+  //   image: diceroller,
+  //   tags: ["HTML", "css", "Java Script"],
+  //   github: "https://github.com/SJ-Slasher/Dice-Roller",
+  //   webapp: "https://diceroller.suprimjoshi.com.np",
+  // },
+  //  {
+  //   id: 8,
+  //   title: "Snake Game",
+  //   description:
+  //     "A classic Snake Game built with HTML, CSS, and JavaScript. Control the snake to eat food, grow longer, and avoid crashing into walls or yourself. Clean UI with smooth gameplay for a nostalgic experience.",
+  //   image: snakegame,
+  //   tags: ["HTML", "css", "Java Script"],
+  //   github: "https://github.com/SJ-Slasher/Snake-Game",
+  //   webapp: "https://snakegame.suprimjoshi.com.np/",
+  // },
 ];
 
 export const achievements = [
@@ -333,6 +345,13 @@ export const achievements = [
     image: ach5,
     description:
       "Participated in Protobytes Hackathon 2.0 (48-hour) as Team BugMara at Advanced College of Management, where we developed Urja Station — a real-time EV charging, pre-booking, and navigation system.",
+  },
+{
+    id: 6,
+    title: "Genome Biothone 2026 Team-BugMara",
+    image: ach6,
+    description:
+      "Participated in Genome Biothon 2026 (36-hour hackathon) as Team BugMara, where we developed NutriMap — a smart soil intelligence system for real-time crop recommendation, nutrient optimization, and cost-effective farming decisions.",
   },
 ];
 
