@@ -50,6 +50,7 @@ import rockpaperscissor from "./assets/project_logo/Rockpaperscissors.png";
 import diceroller from "./assets/project_logo/Diceroller.png";
 import snakegame from "./assets/project_logo/Snakegame.png";
 import urjastation from "./assets/project_logo/Urjastation.png";
+import matoo from "./assets/project_logo/Matoo.png";
 
 //Achievements Section Logo's
 import ach1 from "./assets/achievements_logo/Hultprize.png";
@@ -221,10 +222,10 @@ export const projects = [
     id: 9,
     title: "The Matoo - Smart Soil Testing System",
     description:
-      "A web application designed to locate and manage electric vehicle charging stations. It provides real-time information on charging station availability, user reviews, and navigation assistance.",
-    image: urjastation,
+      "NutriMap is a smart soil intelligence system that converts soil data (pH, NPK, moisture, temperature) into instant crop and nutrient recommendations, enabling faster, cost-effective, and informed farming decisions.",
+    image: matoo,
     tags: ["React Native","Python","Machine Learning","Web Scraping","MATLAB"],
-    github: "https://github.com/SJ-Slasher/protobytes-2.0-team-BugMara",
+    github: "https://github.com/SJ-Slasher/Biothon-Plant-Nutrition.git",
     webapp: "https://urjastation.suprimjoshi.com.np/",
   },
 
