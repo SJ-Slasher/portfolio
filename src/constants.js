@@ -51,6 +51,7 @@ import diceroller from "./assets/project_logo/Diceroller.png";
 import snakegame from "./assets/project_logo/Snakegame.png";
 import urjastation from "./assets/project_logo/Urjastation.png";
 import matoo from "./assets/project_logo/Matoo.png";
+import tedxbhrikutimandap from "./assets/project_logo/TedxBhrikutimandap.png";
 
 //Achievements Section Logo's
 import ach1 from "./assets/achievements_logo/Hultprize.png";
@@ -214,7 +215,7 @@ export const projects = [
     description:
       "A web application designed to locate and manage electric vehicle charging stations. It provides real-time information on charging station availability, user reviews, and navigation assistance.",
     image: urjastation,
-    tags: ["React Native", "JavaScript","API"],
+    tags: ["React Native", "JavaScript","API", "Web Design", "UI/UX"],
     github: "https://github.com/SJ-Slasher/protobytes-2.0-team-BugMara",
     webapp: "https://urjastation.suprimjoshi.com.np/",
   },
@@ -227,6 +228,16 @@ export const projects = [
     tags: ["React Native","Python","Machine Learning","Web Scraping","MATLAB"],
     github: "https://github.com/SJ-Slasher/Biothon-Plant-Nutrition.git",
     webapp: "https://urjastation.suprimjoshi.com.np/",
+  },
+  {
+    id: 10,
+    title: "TedxBhrikutimandap 2026 Website",
+    description:
+      "A modern website for TedxBhrikutimandap 2026, showcasing event details, speakers, and registration information.",
+    image: tedxbhrikutimandap,
+    tags: ["React Native","JavaScript","API","Web Design","UI/UX"],
+    github: "https://github.com/SJ-Slasher/tedxbhirkutimandap2026.git",
+    webapp: "https://tedxbhrikutimandap.com/",
   },
 
   // {
