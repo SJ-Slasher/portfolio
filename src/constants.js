@@ -60,6 +60,7 @@ import ach3 from "./assets/achievements_logo/Halfmarathon2023.png";
 import ach4 from "./assets/achievements_logo/TED_OC_Certificate.png";
 import ach5 from "./assets/achievements_logo/Protobytes.png";
 import ach6 from "./assets/achievements_logo/GenomeBiothone.jpg";
+import ach7 from "./assets/achievements_logo/KodedristiAIHackathon.jpg";
 
 //Gallery Section Logo's
 import cycleguitar from "./assets/gallery_logo/Cycleguitar.png";
@@ -359,11 +360,18 @@ export const achievements = [
       "Participated in Protobytes Hackathon 2.0 (48-hour) as Team BugMara at Advanced College of Management, where we developed Urja Station — a real-time EV charging, pre-booking, and navigation system.",
   },
 {
-    id: 6,
+    id: 7,
     title: "Genome Biothone 2026 Team-BugMara",
     image: ach6,
     description:
       "Participated in Genome Biothon 2026 (36-hour hackathon) as Team BugMara, where we developed NutriMap — a smart soil intelligence system for real-time crop recommendation, nutrient optimization, and cost-effective farming decisions.",
+  },
+  {
+    id: 8,
+    title: "National AI Hackathon 2nd Runner-up Team-BugMara",
+    image: ach7,
+    description:
+      "Secured 2nd Runner-up position at the National AI Hackathon 2025 as Team BugMara, where we developed The Matoo — NPK Sensing of soil with further implementation of IOT and crop recommendation.",
   },
 ];
 
