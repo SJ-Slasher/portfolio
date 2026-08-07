@@ -373,13 +373,13 @@ export const achievements = [
     description:
       "Secured 2nd Runner-up position at the National AI Hackathon 2025 as Team BugMara, where we developed The Matoo — NPK Sensing of soil with further implementation of IOT and crop recommendation.",
   },
-  {
-    id: 9,
-    title: "Lecathon 2.0 Team-BugMara",
-    image: ach7,
-    description:
-      "Participated in Lecathon 2.0 (36-hour hackathon) as Team BugMara, where we developed a smart solution for real-time monitoring and management of livestock health, optimizing farm productivity and animal welfare.",
-  },
+  // {
+  //   id: 9,
+  //   title: "Lecathon 2.0 Team-BugMara",
+  //   image: ach7,
+  //   description:
+  //     "Participated in Lecathon 2.0 (36-hour hackathon) as Team BugMara, where we developed a smart solution for real-time monitoring and management of livestock health, optimizing farm productivity and animal welfare.",
+  // },
 ];
 
 
