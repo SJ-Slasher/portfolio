@@ -52,6 +52,7 @@ import snakegame from "./assets/project_logo/Snakegame.png";
 import urjastation from "./assets/project_logo/Urjastation.png";
 import matoo from "./assets/project_logo/Matoo.png";
 import tedxbhrikutimandap from "./assets/project_logo/TedxBhrikutimandap.png";
+import wifihub from "./assets/project_logo/Wifi.png";
 
 //Achievements Section Logo's
 import ach1 from "./assets/achievements_logo/Hultprize.png";
@@ -239,6 +240,16 @@ export const projects = [
     tags: ["React Native","JavaScript","API","Web Design","UI/UX"],
     github: "https://github.com/SJ-Slasher/tedxbhirkutimandap2026.git",
     webapp: "https://tedxbhrikutimandap.com/",
+  },
+    {
+    id: 11,
+    title: "WIFI Hub",
+    description:
+      "A website for WIFI passwords, providing collection of passwords of WIFI near your location also allowing users to submit their passwords",
+    image: wifihub,
+    tags: ["Supabase","React Native","TypeScript","Web Design","UI/UX"],
+    github: "https://github.com/SJ-Slasher/Updated-Wifi",
+    webapp: "https://updatedwifi.vercel.app/",
   },
 
   // {
